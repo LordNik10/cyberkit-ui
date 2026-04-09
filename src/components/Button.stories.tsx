@@ -29,16 +29,17 @@ export const Secondary: Story = {
   },
 }
 
-export const Inverted: Story = {
+
+export const OutlinedPrimary: Story = {
   args: {
-    label: 'Inverted',
-    variant: 'inverted',
+    label: 'Outlined',
+    variant: 'outlined-primary',
   },
 }
 
-export const Outlined: Story = {
+export const OutlinedSecondary: Story = {
   args: {
     label: 'Outlined',
-    variant: 'outlined',
+    variant: 'outlined-secondary',
   },
 }

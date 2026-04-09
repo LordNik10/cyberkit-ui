@@ -13,8 +13,12 @@
     },
     "./styles.css": "./dist/cyberkit-ui.css"
   },
-  "sideEffects": ["**/*.css"],
-  "files": ["dist"],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -42,6 +46,7 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "eslint-plugin-storybook": "^10.3.5",
     "globals": "^17.4.0",
+    "lucide-react": "^1.3.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "storybook": "^10.3.5",

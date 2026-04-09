@@ -2,11 +2,14 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
   font: inherit;
   cursor: pointer;
   border: 1px solid transparent;
+  font-family: var(--ck-font-family);
+  padding: 0.75rem 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .primary {
@@ -14,18 +17,49 @@
   color: var(--ck-color-primary-contrast);
 }
 
+.primary:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%);
+  clip-path: polygon(15% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%, 0% 30%);
+  color: var(--ck-color-primary-contrast-hover);
+}
+
 .secondary {
   background-color: var(--ck-color-secondary);
   color: var(--ck-color-secondary-contrast);
 }
 
-.inverted {
-  background-color: var(--ck-color-inverted-bg);
-  color: var(--ck-color-inverted-fg);
+.secondary:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%);
+  clip-path: polygon(15% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%, 0% 30%);
+  color: var(--ck-color-secondary-contrast-hover);
 }
 
-.outlined {
+.outlined-primary {
   background-color: transparent;
   color: var(--ck-color-primary);
   border-color: var(--ck-color-primary);
+}
+
+.outlined-primary:hover {
+  background-color: var(--ck-color-primary);
+  color: var(--ck-color-primary-contrast);
+}
+.outlined-secondary {
+  background-color: transparent;
+  color: var(--ck-color-secondary);
+  border-color: var(--ck-color-secondary);
+}
+
+.outlined-secondary:hover {
+  background-color: var(--ck-color-secondary);
+  color: var(--ck-color-primary-contrast);
+}
+
+.startIcon {
+  margin-right: 0.5rem;
+  height: 100%;
+}
+
+.endIcon {
+  margin-left: 0.5rem;
 }
