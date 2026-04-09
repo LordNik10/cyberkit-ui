@@ -1,0 +1,15 @@
+:root {
+  /* Primitives */
+  --ck-blue-500: #2563eb;
+  --ck-gray-600: #4b5563;
+  --ck-gray-900: #111827;
+  --ck-white: #ffffff;
+
+  /* Semantic */
+  --ck-color-primary: var(--ck-blue-500);
+  --ck-color-primary-contrast: var(--ck-white);
+  --ck-color-secondary: var(--ck-gray-600);
+  --ck-color-secondary-contrast: var(--ck-white);
+  --ck-color-inverted-bg: var(--ck-gray-900);
+  --ck-color-inverted-fg: var(--ck-white);
+}
