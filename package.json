@@ -1,6 +1,6 @@
 {
   "name": "@lordnik10/cyberkit-ui",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
   "main": "./dist/@lordnik10/cyberkit-ui.cjs.js",
   "module": "./dist/@lordnik10/cyberkit-ui.es.js",
