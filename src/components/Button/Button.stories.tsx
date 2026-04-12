@@ -1,4 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
+import {
+  ArrowRightIcon,
+  ArrowLeftIcon,
+  PlusIcon,
+  CornerDownLeft,
+} from "lucide-react";
 
 import { Button } from "./Button";
 
@@ -7,6 +13,42 @@ const meta = {
   component: Button,
   parameters: {
     layout: "centered",
+  },
+  argTypes: {
+    startIcon: {
+      options: [
+        "none",
+        "arrow-right",
+        "arrow-left",
+        "plus",
+        "corner-down-left",
+      ],
+      mapping: {
+        none: undefined,
+        "arrow-right": <ArrowRightIcon />,
+        "arrow-left": <ArrowLeftIcon />,
+        plus: <PlusIcon />,
+        "corner-down-left": <CornerDownLeft />,
+      },
+      control: { type: "select" },
+    },
+    endIcon: {
+      options: [
+        "none",
+        "arrow-right",
+        "arrow-left",
+        "plus",
+        "corner-down-left",
+      ],
+      mapping: {
+        none: undefined,
+        "arrow-right": <ArrowRightIcon />,
+        "arrow-left": <ArrowLeftIcon />,
+        plus: <PlusIcon />,
+        "corner-down-left": <CornerDownLeft />,
+      },
+      control: { type: "select" },
+    },
   },
   tags: ["autodocs"],
 } satisfies Meta<typeof Button>;
