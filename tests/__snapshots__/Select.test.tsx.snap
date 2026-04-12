@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders Select component 1`] = `
+<Select
+  onChange={[Function]}
+  value="option1"
+>
+  <MenuItem
+    label="Option 1"
+    value="option1"
+  />
+  <MenuItem
+    label="Option 2"
+    value="option2"
+  />
+  <MenuItem
+    label="Option 3"
+    value="option3"
+  />
+</Select>
+`;
