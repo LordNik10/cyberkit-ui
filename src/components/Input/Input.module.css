@@ -1,9 +1,9 @@
 input {
   width: 100%;
   background-color: rgba(14, 14, 16, 0.7); 
-  border: 1px solid #00F3FF; 
+  border: 1px solid var(--ck-color-primary); 
   padding: 0.75rem 1rem;
-  color: #00F3FF;
+  color: var(--ck-color-primary);
   font-family: 'Space Grotesk', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -26,32 +26,3 @@ input::placeholder {
 input:focus {
   background-color: rgba(14, 14, 16, 0.85);
 }
-
-/* input-wrapper {
-  position: relative;
-  display: block;
-}
-
-input-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  width: 10px;
-  height: 10px;
-  border-top: 2px solid #00F3FF;
-  border-left: 2px solid #00F3FF;
-  pointer-events: none;
-}
-
-input-wrapper::after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  right: -2px;
-  width: 10px;
-  height: 10px;
-  border-bottom: 2px solid #00F3FF;
-  border-right: 2px solid #00F3FF;
-  pointer-events: none;
-} */
