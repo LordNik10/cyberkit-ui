@@ -1,6 +1,6 @@
 {
   "name": "@lordnik10/cyberkit-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "./dist/@lordnik10/cyberkit-ui.cjs.js",
   "module": "./dist/@lordnik10/cyberkit-ui.es.js",
@@ -26,7 +26,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -o storybook-static",
-    "test": "vitest"
+    "test": "vitest",
+    "deploy-storybook": "storybook build -o storybook-static && gh-pages -d storybook-static"
   },
   "peerDependencies": {
     "react": "^19.2.4",
@@ -46,6 +47,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "eslint-plugin-storybook": "^10.3.5",
+    "gh-pages": "^6.3.0",
     "globals": "^17.4.0",
     "lucide-react": "^1.3.0",
     "react": "^19.2.5",

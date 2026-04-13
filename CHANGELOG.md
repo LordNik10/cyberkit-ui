@@ -1,5 +1,11 @@
 # @lordnik10/cyberkit-ui
 
+## 1.0.2
+
+### Patch Changes
+
+- Storybook deploy
+
 ## 1.0.1
 
 ### Patch Changes
