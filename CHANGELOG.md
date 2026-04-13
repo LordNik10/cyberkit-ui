@@ -1,5 +1,11 @@
 # @lordnik10/cyberkit-ui
 
+## 1.0.1
+
+### Patch Changes
+
+- Doc
+
 ## 1.0.0
 
 ### Major Changes
