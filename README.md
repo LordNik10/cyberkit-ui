@@ -59,6 +59,8 @@ La verifica visiva e il comportamento in contesto restano supportati da **Storyb
 
 Storybook serve a **documentare e provare** i componenti in isolamento.
 
+La versione **deployata** è consultabile su GitHub Pages: [https://lordnik10.github.io/cyberkit-ui](https://lordnik10.github.io/cyberkit-ui).
+
 - **Avvio in sviluppo** (porta predefinita **6006**):
 
   ```bash
